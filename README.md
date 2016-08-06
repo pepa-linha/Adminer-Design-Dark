@@ -1,4 +1,4 @@
 [Adminer Design Dark]
 ===================================
 
-![Preview](https://github.com/pepa-linha/Adminer-Design-Dark/stage/preview.png "Preview")
+![Preview](https://raw.githubusercontent.com/pepa-linha/Adminer-Design-Dark/master/preview.png "Preview")
