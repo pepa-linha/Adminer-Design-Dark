@@ -841,3 +841,12 @@ form p label {
         margin: 0;
     }
 }
+
+.footer {
+    border-top: 20px solid rgba(49,47,66,.7);
+    border-image: linear-gradient(rgba(49,47,66,.2),#312f42) 100% 0;
+}
+
+.footer > div {
+    background: #312f42;
+}
