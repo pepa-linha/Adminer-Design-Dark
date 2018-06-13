@@ -828,6 +828,15 @@ form p label {
     text-decoration: underline;
 }
 
+.footer {
+    border-top: 20px solid rgba(49, 47, 66, .7);
+    border-image: linear-gradient(rgba(49, 47, 66, 0.2), #312f42) 100% 0;
+}
+
+.footer > div {
+    background: #312f42;
+}
+
 @media print {
     .logout {
         display: none;
@@ -840,13 +849,4 @@ form p label {
     #content {
         margin: 0;
     }
-}
-
-.footer {
-    border-top: 20px solid rgba(49,47,66,.7);
-    border-image: linear-gradient(rgba(49,47,66,.2),#312f42) 100% 0;
-}
-
-.footer > div {
-    background: #312f42;
 }
