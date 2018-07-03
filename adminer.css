@@ -1,6 +1,6 @@
 /*
  * Dark Theme by Pepa Linha [http://webdream.cz]
- * @version 1.0.0
+ * @version 1.0.1
  */
 
 html,
@@ -826,6 +826,30 @@ form p label {
     color: rgb(143, 195, 247);
     margin-left: 10px;
     text-decoration: underline;
+}
+
+.footer {
+    border-top: none;
+    margin-right: -54px;
+}
+
+.footer > div {
+    margin-left: -61px;
+    background: #2e2c3e;
+    border-top: 1px solid #2a2838;
+    padding: 12px 0 12px 61px;
+}
+
+.footer + div {
+    margin-left: -61px;
+    padding: 12px 0 12px 61px;
+    background: #2e2c3e;
+    margin-right: -54px;
+}
+
+.footer fieldset {
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 @media print {
