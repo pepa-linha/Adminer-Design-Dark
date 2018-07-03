@@ -1,6 +1,6 @@
 /*
  * Dark Theme by Pepa Linha [http://webdream.cz]
- * @version 1.0.1
+ * @version 1.0.2
  */
 
 html,
@@ -353,6 +353,11 @@ p code + a:visited:hover {
     font-weight: normal;
     background: rgba(255, 255, 255, 0.05);
     color: #fff;
+}
+
+#menu p,
+#tables {
+    border-bottom: 0;
 }
 
 #tables {
