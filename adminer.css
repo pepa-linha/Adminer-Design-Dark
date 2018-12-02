@@ -721,10 +721,10 @@ form p label {
 
 #lang {
     position: fixed;
-    top: 55px;
+    top: 50px;
     right: 100%;
     z-index: 10;
-    margin-right: -380px;
+    margin-right: -370px;
     line-height: normal;
     padding: 0;
     left: auto;
@@ -734,7 +734,7 @@ form p label {
 #lang select {
     font-size: 12px;
     padding: 0;
-    text-align: right;
+    text-align: center;
     border: 0;
     background: none;
     -webkit-appearance: none;
