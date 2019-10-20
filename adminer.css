@@ -375,6 +375,26 @@ p code + a:visited:hover {
     overflow-y: auto !important;
 }
 
+#tables > li > a:nth-of-type(2){
+    border: 0;
+    padding: 0 40px;
+    cursor: pointer;
+    outline: 0;
+    background-color: #5df1dc;
+    color: #0d3a33;
+    font-weight: bold;
+    transition: background .4s ease;
+    font-size: 12px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    line-height: 42px;
+    box-shadow: 0 3px 20px 0 rgba(93, 241, 220, 0.06);
+}
+
+#tables > li > a:nth-of-type(2):hover{
+    box-shadow: 0 3px 25px 1px rgba(93, 241, 220, 0.12);
+}
 #tables::-webkit-scrollbar {
     background: transparent;
     width: 6px;
