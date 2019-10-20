@@ -355,6 +355,11 @@ p code + a:visited:hover {
     color: #fff;
 }
 
+.error b{
+    background-color: inherit;
+    font-weight: bold;
+}
+
 #menu p,
 #tables {
     border-bottom: 0;
