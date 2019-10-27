@@ -772,6 +772,8 @@ form p label {
     cursor: pointer;
     outline: 0;
     width: 80px;
+    text-align: right;
+    text-align-last: right;
 }
 
 #lang select option {
