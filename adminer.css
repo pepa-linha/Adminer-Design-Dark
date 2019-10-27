@@ -724,7 +724,7 @@ form p label {
     top: 55px;
     right: 100%;
     z-index: 10;
-    margin-right: -380px;
+    margin-right: -330px;
     line-height: normal;
     padding: 0;
     left: auto;
@@ -742,6 +742,7 @@ form p label {
     appearance: none;
     cursor: pointer;
     outline: 0;
+    width: 80px;
 }
 
 #lang select option {
