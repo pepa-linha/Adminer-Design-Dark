@@ -1,6 +1,6 @@
 /*
  * Dark Theme by Pepa Linha [http://webdream.cz]
- * @version 1.0.3
+ * @version 1.0.5
  */
 
 html,
@@ -515,7 +515,7 @@ select {
     box-sizing: border-box;
     margin: 0;
     border: 0;
-    padding: 12px 16px;
+    padding: 12px 40px 12px 16px;
     font-size: 16px;
     color: #fff;
     background: rgba(255, 255, 255, 0.03)
