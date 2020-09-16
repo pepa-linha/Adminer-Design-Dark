@@ -252,7 +252,7 @@ p code + a:visited:hover {
 }
 
 #menu {
-    width: 370px;
+    width: auto;
     border-right: 1px solid #2a2838;
     margin: 0;
     top: 0;
