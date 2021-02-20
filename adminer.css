@@ -951,6 +951,28 @@ form p label {
     padding-bottom: 0;
 }
 
+/* Overrides for postgres */  
+  #help.jush-pgsql ~ #menu #tables {
+    top: 320px !important;
+  }
+  
+  #help.jush-pgsql ~ #menu p.links a {
+    margin-top: -10px;
+  }
+  
+  #help.jush-pgsql ~ #menu #tables li:not(.hidden) {
+    display: flex !important;
+    flex-direction: row-reverse !important;
+    justify-content: space-between !important;
+  }
+  
+  .js .hidden,
+  .nojs .jsonly {
+    display: none;
+  }
+  
+  /* End Overrides */
+
 @media print {
     .logout {
         display: none;
