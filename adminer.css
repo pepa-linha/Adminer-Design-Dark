@@ -1,6 +1,6 @@
 /*
  * Dark Theme by Pepa Linha [http://webdream.cz]
- * @version 1.0.5
+ * @version 1.0.6
  */
 
 html,
@@ -286,7 +286,7 @@ p code + a:visited:hover {
     color: #c4d3f5;
 }
 
-#menu p {
+#menu p, #tables {
     border: 0;
     padding: 0;
 }
@@ -371,7 +371,7 @@ p code + a:visited:hover {
 
 #tables {
     max-height: 100%;
-    margin: 0 -15px !important;
+    margin: 32px -15px !important;
     position: absolute;
     left: 30px;
     right: 30px;
@@ -425,7 +425,7 @@ p code + a:visited:hover {
     float: none;
 }
 
-#tables a[title] {
+#tables .structure, #tables .view {
     float: none;
     display: block;
 }
@@ -815,7 +815,7 @@ form p label {
     top: 55px;
     right: 100%;
     z-index: 10;
-    margin-right: -330px;
+    margin-right: -340px;
     line-height: normal;
     padding: 0;
     left: auto;
