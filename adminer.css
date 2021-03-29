@@ -25,6 +25,7 @@
     --color-highlight: rgba(255, 255, 255, 0.03);
     --color-highlight-2: rgba(255, 255, 255, 0.05);
     --color-text: var(--color-white);
+    --color-text-muted: rgba(255, 255, 255, 0.45);
     --color-text-highlight: var(--color-green);
     --color-text-highlight-alternative: var(--color-orange);
     --color-border: var(--color-purple-1000);
@@ -994,18 +995,13 @@ form p label {
 }
 
 .jush-sql + .time {
-    padding-left: 20px;
-    color: rgba(255, 255, 255, 0.45);
+    padding-left: 15px;
+    color: var(--color-text-muted);
     font-size: 14px;
 }
 
 .jush-sql + .time + a {
-    color: var(--color-link);
-    margin-left: 10px;
-}
-
-.jush-sql + .time + a:hover {
-    color: var(--color-link-hover);
+    margin-left: 5px;
 }
 
 .footer {
