@@ -510,10 +510,13 @@ p code + a:visited:hover {
 }
 
 #tables a:hover,
-#tables a:hover + a,
+#tables a:hover + a {
+    color: var(--color-link-light-hover);
+}
+
 #tables a.active,
 #tables a.active + a {
-    color: var(--color-link-light-hover);
+    color: var(--color-text-highlight);
 }
 
 #tables br {
