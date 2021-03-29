@@ -87,6 +87,10 @@
     --ui-radius: 2px;
     --ui-checkbox-radius: var(--ui-radius);
     --ui-radio-radius: 10px;
+
+    /* UI sizes */
+    --ui-sidebar-width: 370px;
+    --ui-content-spacing: 60px;
 }
 
 html,
@@ -98,6 +102,7 @@ body {
     font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
     background: var(--color-background);
     color: var(--color-text);
+    width: auto;
 }
 
 h1 {
@@ -306,8 +311,8 @@ p code + a:visited:hover {
 }
 
 #content {
-    margin: 0 54px 0 430px;
-    padding: 50px 0 0;
+    margin: 0 var(--ui-content-spacing) 0 calc(var(--ui-sidebar-width) + var(--ui-content-spacing));
+    padding: 25px 0 0;
 }
 
 #content > p {
@@ -325,7 +330,7 @@ p code + a:visited:hover {
 }
 
 #menu {
-    width: 370px;
+    width: var(--ui-sidebar-width);
     border-right: 1px solid var(--color-border);
     margin: 0;
     top: 0;
@@ -545,10 +550,10 @@ p code + a:visited:hover {
 }
 
 #breadcrumb {
-    margin: 0;
-    left: 430px;
+    margin: 0 !important;
+    position: static;
     background: none;
-    padding: 25px 0 0;
+    padding: 0 0 0;
     font-size: 12px;
 }
 
@@ -570,13 +575,17 @@ p code + a:visited:hover {
 .logout,
 .rtl .logout {
     top: 30px;
-    right: 54px;
+    right: var(--ui-content-spacing);
     margin: 0;
 }
 
 .rtl .logout {
     right: auto;
-    left: 54px;
+    left: var(--ui-content-spacing);
+}
+
+.logout input {
+    margin: 0 !important;
 }
 
 select {
@@ -873,10 +882,10 @@ form p label {
 
 #lang {
     position: fixed;
-    top: 55px;
+    top: 57px;
     right: 100%;
     z-index: 10;
-    margin-right: -330px;
+    margin-right: calc(-1 * var(--ui-sidebar-width) + 25px);
     line-height: normal;
     padding: 0;
     left: auto;
@@ -993,21 +1002,21 @@ form p label {
 
 .footer {
     border-top: none;
-    margin-right: -54px;
+    margin-right: calc(-1 * var(--ui-content-spacing));
 }
 
 .footer > div {
-    margin-left: -61px;
+    margin-left: calc(-1 * var(--ui-content-spacing));
     background: var(--color-background-shade);
     border-top: 1px solid var(--color-border);
-    padding: 12px 0 12px 61px;
+    padding: 12px 0 12px var(--ui-content-spacing);
 }
 
 .footer + div {
-    margin-left: -61px;
-    padding: 12px 0 12px 61px;
+    margin-left: calc(-1 * var(--ui-content-spacing));
+    padding: 12px 0 12px var(--ui-content-spacing);
     background: var(--color-background-shade);
-    margin-right: -54px;
+    margin-right: calc(-1 * var(--ui-content-spacing));
 }
 
 .footer fieldset {
