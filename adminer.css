@@ -616,6 +616,10 @@ option {
     color: var(--color-black);
 }
 
+.layout .function select {
+    min-width: 140px;
+}
+
 input:not([type]),
 input[type="color"],
 input[type="email"],
