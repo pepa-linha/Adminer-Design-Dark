@@ -1,6 +1,6 @@
 /*
  * Dark Theme by Pepa Linha [http://webdream.cz]
- * @version 2.0.0
+ * @version 2.0.1
  */
 :root {
     /* Base colors */
@@ -822,6 +822,7 @@ form p input {
 
 form p label {
     display: inline-flex;
+    vertical-align: middle;
     align-items: center;
     color: var(--color-text);
     margin: 0 8px;

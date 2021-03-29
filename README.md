@@ -6,6 +6,8 @@
 
 ## Changelog
 
+2.0.1 - Minor fixes
+
 2.0.0 - CSS variables, color unification, minor fixes
 
 1.0.5 - Fix select box padding
