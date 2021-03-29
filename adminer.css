@@ -483,23 +483,24 @@ p code + a:visited:hover {
     overflow-y: auto !important;
 }
 
+#tables li {
+    display: flex;
+}
+
 #tables a {
-    float: right;
     padding: 6px 15px;
 }
 
-.rtl #tables a {
-    float: none;
-}
-
-#tables a[title] {
-    float: none;
-    display: block;
+#tables a:nth-child(2) {
+    flex: 1;
+    order: -1;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .rtl #tables a:first-child,
 .rtl #tables br + a {
-    float: left;
     display: block;
     margin-left: 15px;
 }
