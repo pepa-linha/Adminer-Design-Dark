@@ -674,7 +674,6 @@ input[type="button"] {
     background: var(--color-button-background);
     color: var(--color-button-text);
     font-weight: bold;
-    margin-bottom: 5px;
     transition: background 0.4s ease;
     font-size: 12px;
     border-radius: var(--ui-radius);
