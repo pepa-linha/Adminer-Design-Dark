@@ -26,6 +26,7 @@
     --color-highlight-2: rgba(255, 255, 255, 0.05);
     --color-text: var(--color-white);
     --color-text-highlight: var(--color-green);
+    --color-text-highlight-alternative: var(--color-orange);
     --color-border: var(--color-purple-1000);
 
     /* Links */
@@ -208,6 +209,10 @@ thead th a:visited:hover {
     color: var(--color-table-head-text);
     font-weight: bold;
     padding: 16px;
+}
+
+#content .links + p {
+    color: var(--color-text-highlight-alternative);
 }
 
 table.checkable,
