@@ -82,6 +82,11 @@
     --color-schema-type-date: var(--color-orange);
     --color-schema-type-enum: var(--color-orange);
     --color-schema-type-binary: var(--color-orange);
+
+    /* UI radius */
+    --ui-radius: 2px;
+    --ui-checkbox-radius: var(--ui-radius);
+    --ui-radio-radius: 10px;
 }
 
 html,
@@ -574,6 +579,7 @@ select {
     width: auto;
     vertical-align: middle;
     transition: background 0.24s;
+    border-radius: var(--ui-radius);
 }
 
 option {
@@ -597,7 +603,7 @@ textarea {
     font-size: 16px;
     color: var(--color-input-text);
     background: var(--color-input-background);
-    border-radius: 2px;
+    border-radius: var(--ui-radius);
     transition: background 0.24s;
     vertical-align: middle;
 }
@@ -641,7 +647,7 @@ input[type="button"] {
     margin-bottom: 5px;
     transition: background 0.4s ease;
     font-size: 12px;
-    border-radius: 2px;
+    border-radius: var(--ui-radius);
     text-transform: uppercase;
     letter-spacing: 0.5px;
     line-height: 42px;
@@ -681,7 +687,7 @@ input[type="radio"] {
     height: 18px;
     background: transparent;
     border: 2px solid var(--color-input-border);
-    border-radius: 2px;
+    border-radius: var(--ui-checkbox-radius);
     -webkit-appearance: none;
     cursor: pointer;
     position: relative;
@@ -696,7 +702,7 @@ input[type="radio"]:focus {
 }
 
 input[type="radio"] {
-    border-radius: 9px;
+    border-radius: var(--ui-radio-radius);
 }
 
 input[type="checkbox"]:checked,
@@ -722,7 +728,7 @@ input[type="radio"]:checked::before {
 
 .icon,
 .icon:hover {
-    border-radius: 2px;
+    border-radius: var(--ui-radius);
     background-color: var(--color-button-text);
     opacity: 0.6;
 }
@@ -734,7 +740,7 @@ input[type="radio"]:checked::before {
 #help {
     background-color: var(--color-tooltip);
     border: 0;
-    border-radius: 2px;
+    border-radius: var(--ui-radius);
     box-shadow: var(--shadow-tooltip);
 }
 
@@ -756,7 +762,7 @@ label.block {
 .message {
     margin: 0 0 45px;
     font-size: 20px;
-    border-radius: 2px;
+    border-radius: var(--ui-radius);
 }
 
 .error {
@@ -906,7 +912,7 @@ form p label {
     font-size: 16px;
     background: var(--color-highlight-2);
     color: var(--color-jush-text);
-    border-radius: 2px;
+    border-radius: var(--ui-radius);
     transition: background 0.24s;
     outline: 0 !important;
 }
