@@ -521,11 +521,30 @@ p code + a:visited:hover {
 
 .js .column {
     background: var(--color-table-head-text);
+    border-radius: var(--ui-radius);
+    padding: 2px;
+}
+
+.js .column:not(.hidden) {
+    display: inline-flex;
+    overflow: hidden;
 }
 
 .js .column a,
 .js .column a:hover {
     color: var(--color-table-head);
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    display: inline-flex;
+    justify-content: center;
+    text-indent: -4px; /* remove space in code */
+}
+
+.js .column a:hover {
+    background: var(--color-table-head);
+    color: var(--color-table-head-text);
+    text-decoration: none;
 }
 
 #breadcrumb {
