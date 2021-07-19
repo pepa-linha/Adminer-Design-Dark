@@ -450,6 +450,8 @@ p code + a:visited:hover {
     padding: 0;
     margin: 0 -15px;
     flex: 1;
+	overflow: hidden !important;
+	overflow-y: auto !important;
 }
 
 #tables::-webkit-scrollbar {
