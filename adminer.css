@@ -491,6 +491,8 @@ p code + a:visited:hover {
 
 #tables li {
     display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
 }
 
 #tables a {
