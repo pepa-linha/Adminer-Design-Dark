@@ -242,8 +242,7 @@ h3 + table,
     box-shadow: inset 2px 0 0 var(--color-table-row-checked-highlight);
 }
 
-.odd th,
-.odd td {
+.odds tbody tr:nth-child(2n) {
     background: var(--color-table-row-odd);
 }
 

@@ -2,7 +2,7 @@
 
 ![Preview](/preview.png "Preview")
 
-**Tested** on MacOS Chrome only (sorry _:-)_), compatible with Adminer 4.8.0
+**Tested** on MacOS Chrome only (sorry _:-)_), compatible with Adminer 5.0.6
 
 ## Changelog
 
