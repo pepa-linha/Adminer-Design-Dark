@@ -93,6 +93,12 @@
     /* UI sizes */
     --ui-sidebar-width: 370px;
     --ui-content-spacing: 60px;
+
+	/* Adminer 6.0 fix */
+	--bg: var(--color-background);
+    --fg: var(--color-text);
+    --dim: var(--color-text-muted);
+    --lit: var(--color-text-highlight);
 }
 
 html,
